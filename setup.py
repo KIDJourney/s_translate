@@ -3,6 +3,12 @@ from setuptools import setup, find_packages
 setup(
     name="translateit",
     version='0.0.1',
+    author="KIDJourney",
+    author_email="kingdeadfish@qq.com",
+    description="This is a simple console translator",
+    license="MIT",
+    keywords="hello world translate requests",
+    
     packages=find_packages('src'),
     package_dir={'': 'src'},
 
@@ -17,11 +23,6 @@ setup(
         'Programming Language :: Python :: 3',
     ],
 
-    author="KIDJourney",
-    author_email="kingdeadfish@qq.com",
-    description="This is a simple console translator",
-    license="MIT",
-    keywords="hello world translate requests",
 
     entry_points={
         'console_scripts': [
