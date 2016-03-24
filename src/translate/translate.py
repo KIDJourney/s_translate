@@ -26,3 +26,6 @@ def tword(word):
         print ('\n'.join(response['basic']['explains']))
     else:
         print ("No explain")
+
+def test():
+    print("Hello world")

@@ -4,8 +4,8 @@ setup(
     name="translateit",
     version='0.0.1',
     packages=find_packages('src'),
-    package_dir = {'':'src'},
-    
+    package_dir={'': 'src'},
+
     zip_safe=False,
 
     install_requires=[
@@ -13,7 +13,7 @@ setup(
     ],
 
 
-    clasifiers=[
+    classifiers=[
         'Programming Language :: Python :: 3',
     ],
 
@@ -22,4 +22,10 @@ setup(
     description="This is a simple console translator",
     license="MIT",
     keywords="hello world translate requests",
+
+    entry_points={
+        'console_scriptes': [
+            'foo = translate.__main__:main',
+        ],
+    }
 )

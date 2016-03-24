@@ -1,7 +1,11 @@
-def main(**kwargs):
-    from .translate import tword
+import sys
 
-    tword(**kwargs)
+def main(args=None):
+    if args is None :
+        args = sys.argv[1:]
+
+    print("This is the main routine.")
+    print("It should do something interesting.")
 
 if __name__ == "__main__":
     main()
