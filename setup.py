@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="translateit",
-    version='0.0.1',
+    version='0.0.2',
     author="KIDJourney",
     author_email="kingdeadfish@qq.com",
     description="This is a simple console translator",
