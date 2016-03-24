@@ -1,11 +1,12 @@
 import sys
 
 def main(args=None):
+
+    from .translate import tword
     if args is None :
         args = sys.argv[1:]
 
-    print("This is the main routine.")
-    print("It should do something interesting.")
+    tword(' '.join(args))
 
 if __name__ == "__main__":
     main()

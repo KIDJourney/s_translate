@@ -24,8 +24,8 @@ setup(
     keywords="hello world translate requests",
 
     entry_points={
-        'console_scriptes': [
-            'foo = translate.__main__:main',
-        ],
-    }
+        'console_scripts': [
+            'translate = translate.__main__:main'
+        ]
+    },
 )
