@@ -4,9 +4,10 @@ setup(
     name="translateit",
     version='0.0.1',
     packages=find_packages(),
-    scripts=['translate.py'],
 
-    install_requires=['requests'],
+    install_requires=[
+            'requests',
+    ],
 
     author="KIDJourney",
     author_email="kingdeadfish@qq.com",

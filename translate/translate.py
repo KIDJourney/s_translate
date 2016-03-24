@@ -23,6 +23,6 @@ def tword(word):
     response = translate(word, key, fromkey, doctype)
 
     if 'basic' in response.keys():
-        print '\n'.join(response['basic']['explains'])
+        print ('\n'.join(response['basic']['explains']))
     else:
-        print "No explain"
+        print ("No explain")
