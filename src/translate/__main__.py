@@ -1,12 +1,21 @@
 import sys
 
-def main(args=None):
+def showhelp():
+    help = """
+    Usage: translate [word or sentence]
+    """
 
+
+
+def main(args=None):
     from .translate import tword
     if args is None :
         args = sys.argv[1:]
 
-    tword(' '.join(args))
+    if len(args) < 0:
+        showhelp()
+    else :
+        tword(' '.join(args))
 
 if __name__ == "__main__":
     main()
