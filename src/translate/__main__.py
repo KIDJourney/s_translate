@@ -4,7 +4,7 @@ def showhelp():
     help = """
     Usage: translate [word or sentence]
     """
-
+    print(help)
 
 
 def main(args=None):
